@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Card = ({ width, start, para, hover }) => {
   return (
     <motion.div
-      whileHover={{ backgroundColor: hover && "#7443ff" }}
+      whileHover={{ backgroundColor: hover && "#7443ff", padding: "25px" }}
       className={`${width} bg-zinc-800 p-3 rounded-xl min-h-[25rem] flex flex-col justify-between`}
     >
       <div className="w-full ">
